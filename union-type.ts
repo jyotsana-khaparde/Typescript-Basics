@@ -8,8 +8,8 @@ function combine(input1: number | string, input2: number | string) {
     return result;
 }
 
-const combo1 = combine(10, 20)
-console.log('combo1: ', combo1);
+const combon1 = combine(10, 20)
+console.log('combon1: ', combon1);
 
-const combo2 = combine('rupali', 'khaparde')
-console.log('combo2: ', combo2);
+const combon2 = combine('rupali', 'khaparde')
+console.log('combon2: ', combon2);

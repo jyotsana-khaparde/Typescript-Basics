@@ -2,7 +2,7 @@
 type comboTypes = number | string // type aliases
 type comboLiteral = 'as-number' | 'as-string' // type aliases
 
-function literalCombine(
+function literalCombineEx(
     input1: comboTypes,
     input2: comboTypes,
     resultConversion: comboLiteral
@@ -16,11 +16,11 @@ function literalCombine(
     return result;
 }
 
-const combo1 = literalCombine(50, 20, 'as-number')
-console.log('combo1: ', combo1);
+const comboa1 = literalCombineEx(50, 20, 'as-number')
+console.log('combo1: ', comboa1);
 
-const combo2 = literalCombine('jyo', 'singh', 'as-string')
-console.log('combo2: ', combo2);
+const comboa2 = literalCombineEx('jyo', 'singh', 'as-string')
+console.log('combo2: ', comboa2);
 
-const combo3 = literalCombine('10', '10', 'as-number')
-console.log('combo3: ', combo3);
+const comboa3 = literalCombineEx('10', '10', 'as-number')
+console.log('combo3: ', comboa3);

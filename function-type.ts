@@ -8,10 +8,10 @@ function printResults(num: number) {
 
 printResults(add(3, 2));
 
-// let combinevalue: Function // function type
-let combinevalue: (a: number, b: number) => number // function type
+// let combinevalueEx: Function // function type
+let combinevalueEx: (a: number, b: number) => number // function type
 
-combinevalue = add;
-// combinevalue = 15;
+combinevalueEx = add;
+// combinevalueEx = 15;
 
-console.log('a----', combinevalue(8,8))
+console.log('a----', combinevalueEx(8,8))
