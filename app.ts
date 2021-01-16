@@ -96,6 +96,6 @@ function checkNull(isTrue:boolean, somethingElse: boolean) {
     if (isTrue) {
         result = 23
     }
-    result = 11
+    result = 11 // if this will be commented then we will get error for result because result will be null at that time
     return result;
 }
