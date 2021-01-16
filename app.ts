@@ -91,6 +91,7 @@ canBeNullIfAssignCheck = null
 let canThisBeAny = null;
 canThisBeAny = 12
 
+// -> eg of strictNullChecks and noUnusedParameters
 function checkNull(isTrue:boolean, somethingElse: boolean) {
     let result: number
     if (isTrue) {
