@@ -53,7 +53,7 @@ console.log(complex2.data);
 var myRealAge = 23;
 myRealAge = '12';
 // myRealAge = true
-// -> Nullanle Types
+// -> Nullable Types
 var canBeNull = 12;
 // canBeNull = null // "strictNullChecks": true <canBeNull = null> does not allow
 var canAlsoBeNull;
@@ -62,3 +62,11 @@ var canBeNullIfAssignCheck = 12; // if want to reassign null value then need to 
 canBeNullIfAssignCheck = null;
 var canThisBeAny = null;
 canThisBeAny = 12;
+function checkNull(isTrue, somethingElse) {
+    var result;
+    if (isTrue) {
+        result = 23;
+    }
+    result = 11;
+    return result;
+}

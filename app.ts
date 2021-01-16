@@ -91,3 +91,11 @@ canBeNullIfAssignCheck = null
 let canThisBeAny = null;
 canThisBeAny = 12
 
+function checkNull(isTrue:boolean, somethingElse: boolean) {
+    let result: number
+    if (isTrue) {
+        result = 23
+    }
+    result = 11
+    return result;
+}
